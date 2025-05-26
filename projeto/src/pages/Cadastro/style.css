@@ -1,0 +1,14 @@
+/* src\pages\Cadastro\style.css */
+
+.pagina-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 32px;
+    background: linear-gradient(
+        to bottom right,
+        rgba(0, 128, 0, 0.555),
+        rgba(248, 232, 2, 0.5),
+        rgba(0, 17, 255, 0.473)
+    ),}

@@ -1,0 +1,21 @@
+.mensagem {
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin: 10px 0;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.mensagem.sucesso {
+  background-color: green;
+}
+
+.mensagem.erro {
+  background-color: red;
+}
+
+.mensagem.visivel {
+  opacity: 1;
+}

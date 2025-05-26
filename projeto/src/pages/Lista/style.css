@@ -1,0 +1,74 @@
+.pagina-lista-usuarios {
+    background: linear-gradient(
+        to bottom right,
+        rgba(0, 128, 0, 0.514),
+        rgba(255, 238, 2, 0.514),
+        rgba(0, 26, 255, 0.452)
+        ),
+        /*url('../../assets/images/arena.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;*/
+}
+ 
+.pagina-lista-usuarios .container h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #aabde9;
+}
+ 
+.pagina-lista-usuarios .container .link-voltar {
+    display: block; 
+    margin: 20px auto; /* ← Isso sim centraliza horizontalmente */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #f7eeee;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+ 
+.pagina-lista-usuarios .container .link-voltar:hover {
+    text-decoration: none;
+}
+
+
+.pagina-lista-usuarios .lista-usuarios {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center; 
+    padding: 20px 0;
+}
+
+.lista-usuarios .usuario {
+    background-color: rgba(252, 242, 242, 0.9);
+    border: 1px solid #f5e7e7;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px; /* ou outro valor fixo/flexível */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.usuario-card {
+    background-color: rgba(238, 232, 232, 0.95); /* fundo branco levemente opaco */
+    border: 1px solid #0c0101;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+
+.usuario-card:hover {
+    transform: scale(1.03); /* efeito de destaque ao passar o mouse */
+}
