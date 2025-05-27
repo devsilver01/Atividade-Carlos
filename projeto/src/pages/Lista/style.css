@@ -1,44 +1,40 @@
 .pagina-lista-usuarios {
     background: linear-gradient(
         to bottom right,
-        rgba(0, 128, 0, 0.514),
-        rgba(255, 238, 2, 0.514),
-        rgba(0, 26, 255, 0.452)
-        ),
-        /*url('../../assets/images/arena.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;*/
+        rgba(3, 70, 148, 0.7),
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 215, 0, 0.5)
+    );
 }
- 
+
 .pagina-lista-usuarios .container h2 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 35px;
-    color: #aabde9;
+    color: #FFD700;
 }
- 
+
 .pagina-lista-usuarios .container .link-voltar {
     display: block; 
-    margin: 20px auto; /* ← Isso sim centraliza horizontalmente */
+    margin: 20px auto;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #28a745;
-    color: #f7eeee;
+    background-color: #034694;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-}
- 
-.pagina-lista-usuarios .container .link-voltar:hover {
-    text-decoration: none;
+    transition: background-color 0.3s;
 }
 
+.pagina-lista-usuarios .container .link-voltar:hover {
+    background-color: #1A66C9;
+    text-decoration: none;
+}
 
 .pagina-lista-usuarios .lista-usuarios {
     display: flex;
@@ -49,26 +45,30 @@
 }
 
 .lista-usuarios .usuario {
-    background-color: rgba(252, 242, 242, 0.9);
-    border: 1px solid #f5e7e7;
+    background-color: rgba(3, 70, 148, 0.15);
+    border: 1px solid #034694;
     border-radius: 10px;
     padding: 15px;
-    width: 200px; /* ou outro valor fixo/flexível */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(3, 70, 148, 0.3);
     text-align: center;
+    color: #034694;
+    font-weight: bold;
 }
 
 .usuario-card {
-    background-color: rgba(238, 232, 232, 0.95); /* fundo branco levemente opaco */
-    border: 1px solid #0c0101;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #034694;
     border-radius: 10px;
     padding: 20px;
     width: 250px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 8px rgba(3, 70, 148, 0.2);
     text-align: left;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color: #034694;
 }
 
 .usuario-card:hover {
-    transform: scale(1.03); /* efeito de destaque ao passar o mouse */
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(3, 70, 148, 0.4);
 }

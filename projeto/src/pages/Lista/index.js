@@ -28,7 +28,7 @@ function PaginaListaUsuarios() {
             </div>
           ))}
         </div>
-        <button className="link-voltar" onClick={() => navigate('/')}>
+        <button className="link-voltar" onClick={() => navigate('/cadastro')}>
           Cadastrar usuários
         </button>
         <button className="link-voltar" onClick={() => navigate('/')}>

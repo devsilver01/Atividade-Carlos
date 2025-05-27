@@ -9,7 +9,7 @@
 }
 
 .mensagem.sucesso {
-  background-color: green;
+  background-color: rgb(6, 10, 240);
 }
 
 .mensagem.erro {

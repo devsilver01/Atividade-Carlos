@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom, #eb0b0b88, #01643388, rgba(255, 254, 255, 0.7)), 
+    background: linear-gradient(to bottom, #03469488, #ffffff88, rgba(3, 70, 148, 0.7)), 
                 url('../../assets/images/banner.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white;
@@ -12,7 +12,7 @@ body {
     text-align: center;
     padding: 0;
     min-height: 100vh; 
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 50, 0.6); 
 }
 
 .topo {
@@ -20,17 +20,17 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: linear-gradient(
+    background: linear-gradient(
         to bottom right,
-        rgba(0, 128, 0, 0.7),
-        rgba(255, 255, 255, 0.7),
-        rgba(255, 0, 0, 0.7)
-        )    }
+        rgba(3, 70, 148, 0.8),
+        rgba(255, 255, 255, 0.8),
+        rgba(3, 70, 148, 0.6)
+    );
+}
 
 .logo {
     height: 50px;
 }
-
 
 .menu a {
     margin: 0 15px;
@@ -41,21 +41,20 @@ body {
 }
 
 .menu a:hover {
-    color: #00e0ff;
+    color: #FFD700;
 }
 
 .conteudo {
     padding: 50px 20px;
     border-radius: 10px;
     margin: 20px;
-    background-color: linear-gradient(
+    background: linear-gradient(
         to bottom right,
-        rgba(0, 128, 0, 0.7),
-        rgba(255, 255, 255, 0.7),
-        rgba(255, 0, 0, 0.7)
-        )    
+        rgba(3, 70, 148, 0.8),
+        rgba(255, 255, 255, 0.8),
+        rgba(3, 70, 148, 0.6)
+    );
 }
-
 
 .imagem-banner {
     width: 100%;
@@ -68,22 +67,23 @@ body {
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #FFD700;
 }
 
 .descricao {
     font-size: 18px;
     margin-bottom: 30px;
-    color: #d9d5e9;
+    color: #ffffff;
     text-align: center;
     padding: 0;
     min-height: 5vh; 
     border-radius: 5%;
-    background-color: linear-gradient(
+    background: linear-gradient(
         to bottom right,
-        rgba(2, 24, 2, 0.7),
-        rgba(255, 255, 255, 0.7),
-        rgba(255, 0, 0, 0.7)
-        )    
+        rgba(3, 70, 148, 0.7),
+        rgba(255, 255, 255, 0.6),
+        rgba(3, 70, 148, 0.7)
+    );
 }
 
 .botoes-download {
@@ -96,16 +96,16 @@ body {
 .botao {
     padding: 12px 20px;
     border-radius: 5px;
-    background-color: #222;
-    border: 2px solid #fff;
-    color: #fff;
+    background-color: #034694; 
+    border: 2px solid #034694; 
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     transition: all 0.3s;
 }
 
 .botao:hover {
-    background-color: #00e0ff;
-    border-color: #00e0ff;
-    color: #000;
+    background-color: #1A66C9;
+    border-color: #1A66C9;
+    color: #ffffff;
 }
