@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom'; // Importa o hook
 import './style.css';
-import logo from '../../assets/images/chelsea-football-club.png';
-import banner from '../../assets/images/chelsea.png';
+import logo from '../../assets/images/logo.png';
+import banner from '../../assets/images/logo.png';
 
 function BemVindo() {
     const navigate = useNavigate(); // cria a função de navegação
